@@ -1,0 +1,42 @@
+{
+  "name": "the-snark",
+  "version": "1.0.0",
+  "description": "The Snark From FIT1002 - Done in Typescript many years later",
+  "main": "./dist/index.js",
+  "scripts": {
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write",
+    "build": "tsc",
+    "lint": "eslint",
+    "test": "jest",
+    "start": "node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daviddeejjames/the-snark.git"
+  },
+  "keywords": [
+    "snark",
+    "monash",
+    "fit1002",
+    "typescript"
+  ],
+  "author": "David James",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daviddeejjames/the-snark/issues"
+  },
+  "homepage": "https://github.com/daviddeejjames/the-snark#readme",
+  "dependencies": {
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.22",
+    "eslint": "^7.23.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1",
+    "ts-jest": "^26.5.4"
+  }
+}
