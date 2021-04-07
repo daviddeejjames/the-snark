@@ -64,3 +64,6 @@ deploy
 *.js
 *.d.ts
 node_modules
+
+# eww apple
+.DS_Store

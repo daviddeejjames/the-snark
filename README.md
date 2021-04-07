@@ -20,6 +20,10 @@ TBA
 
 TBA
 
+## Class Diagram
+
+![Snark Class Diagram](docs/snark.png)
+
 ## How To Contribute
 
 TBA
