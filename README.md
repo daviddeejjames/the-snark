@@ -30,4 +30,4 @@ TBA
 
 ## Thanks
 
-<3 @nm-t
+<3 @nmt
