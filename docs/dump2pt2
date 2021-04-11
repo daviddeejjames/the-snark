@@ -1,0 +1,521 @@
+*************************************************
+***              Hunt the Snark!              ***
+*************************************************
+ The SNARK is a vicious beast that lives in the
+ dismal swamp outside the city. To hunt it, you
+ must enter 2 coordinates, each from 0-9 using
+ an x y format (x = South/North, y = West/East).
+ You will then be told how accurate your aim is.
+ You have just 5 shots to find the SNARK!
+*************************************************
+
+
+Would you like too play? (y/n)
+y
+
+
+The snark is now hiding somewhere in dismal Swamp (pictured below). You may begin shooting!
+
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 5 . . . . . . . . . .
+ 4 . . . . . . . . . .
+ 3 . . . . . . . . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . .
+ 0 . . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+Enter the x and y coordinate of your shot on the same line separated by a space or 
+enter -1 to quit, enter -2 for auto-play
+-2
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 5 . . . . . * . . . .
+ 4 . S . . . . . . . .
+ 3 . . . . . . . . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . .
+ 0 . . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+try # 1 (4 left)
+Too far East and too far North. The Snark Lives!
+
+
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 5 . . . . . . . . . .
+ 4 . S . * . . . . . .
+ 3 . . . . . . . . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . .
+ 0 . . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+try # 2 (3 left)
+Too far East and y is correct. The Snark Lives!
+
+
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 5 . . . . . . . . . .
+ 4 . S * . . . . . . .
+ 3 . . . . . . . . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . .
+ 0 . . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+try # 3 (2 left)
+Too far East and y is correct. The Snark Lives!
+
+
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 5 . . . . . . . . . .
+ 4 . X . . . . . . . .
+ 3 . . . . . . . . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . .
+ 0 . . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+try # 4 (1 left)
+A Hit. The Snark is Dead!
+
+
+
+Game History:
+Try			x	y		Hint
+1			5	5		Too far East and too far North. The Snark Lives!
+2			3	4		Too far East and y is correct. The Snark Lives!
+3			2	4		Too far East and y is correct. The Snark Lives!
+4			1	4		A Hit. The Snark is Dead!
+
+Would you like too play again? (y/n)
+y
+
+
+The snark is now hiding somewhere in dismal Swamp (pictured below). You may begin shooting!
+
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 5 . . . . . . . . . .
+ 4 . . . . . . . . . .
+ 3 . . . . . . . . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . .
+ 0 . . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+Enter the x and y coordinate of your shot on the same line separated by a space or 
+enter -1 to quit, enter -2 for auto-play
+-2
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 5 . . . . . * . . . .
+ 4 . . . . . . . . . .
+ 3 . . . . . . . . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . .
+ 0 S . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+try # 1 (4 left)
+Too far East and too far North. The Snark Lives!
+
+
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 5 . . . . . . . . . .
+ 4 . . . . . . . . . .
+ 3 . . . * . . . . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . .
+ 0 S . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+try # 2 (3 left)
+Too far East and too far North. The Snark Lives!
+
+
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 5 . . . . . . . . . .
+ 4 . . . . . . . . . .
+ 3 . . . . . . . . . .
+ 2 . . * . . . . . . .
+ 1 . . . . . . . . . .
+ 0 S . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+try # 3 (2 left)
+Too far East and too far North. The Snark Lives!
+
+
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 5 . . . . . . . . . .
+ 4 . . . . . . . . . .
+ 3 . . . . . . . . . .
+ 2 . . . . . . . . . .
+ 1 . * . . . . . . . .
+ 0 S . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+try # 4 (1 left)
+Too far East and too far North. The Snark Lives!
+
+
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 5 . . . . . . . . . .
+ 4 . . . . . . . . . .
+ 3 . . . . . . . . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . .
+ 0 X . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+try # 5 (0 left)
+A Hit. The Snark is Dead!
+
+
+
+Game History:
+Try			x	y		Hint
+1			5	5		Too far East and too far North. The Snark Lives!
+2			3	3		Too far East and too far North. The Snark Lives!
+3			2	2		Too far East and too far North. The Snark Lives!
+4			1	1		Too far East and too far North. The Snark Lives!
+5			0	0		A Hit. The Snark is Dead!
+
+Would you like too play again? (y/n)
+y
+
+
+The snark is now hiding somewhere in dismal Swamp (pictured below). You may begin shooting!
+
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 5 . . . . . . . . . .
+ 4 . . . . . . . . . .
+ 3 . . . . . . . . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . .
+ 0 . . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+Enter the x and y coordinate of your shot on the same line separated by a space or 
+enter -1 to quit, enter -2 for auto-play
+-2
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . S
+ 5 . . . . . * . . . .
+ 4 . . . . . . . . . .
+ 3 . . . . . . . . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . .
+ 0 . . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+try # 1 (4 left)
+Too far West and too far South The Snark Lives!
+
+
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . * . S
+ 5 . . . . . . . . . .
+ 4 . . . . . . . . . .
+ 3 . . . . . . . . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . .
+ 0 . . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+try # 2 (3 left)
+Too far West and y is correct. The Snark Lives!
+
+
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . * S
+ 5 . . . . . . . . . .
+ 4 . . . . . . . . . .
+ 3 . . . . . . . . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . .
+ 0 . . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+try # 3 (2 left)
+Too far West and y is correct. The Snark Lives!
+
+
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . X
+ 5 . . . . . . . . . .
+ 4 . . . . . . . . . .
+ 3 . . . . . . . . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . .
+ 0 . . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+try # 4 (1 left)
+A Hit. The Snark is Dead!
+
+
+
+Game History:
+Try			x	y		Hint
+1			5	5		Too far West and too far South The Snark Lives!
+2			7	6		Too far West and y is correct. The Snark Lives!
+3			8	6		Too far West and y is correct. The Snark Lives!
+4			9	6		A Hit. The Snark is Dead!
+
+Would you like too play again? (y/n)
+y
+
+
+The snark is now hiding somewhere in dismal Swamp (pictured below). You may begin shooting!
+
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 5 . . . . . . . . . .
+ 4 . . . . . . . . . .
+ 3 . . . . . . . . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . .
+ 0 . . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+Enter the x and y coordinate of your shot on the same line separated by a space or 
+enter -1 to quit, enter -2 for auto-play
+-2
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 5 . . . . . * . . . .
+ 4 . . . . . . . . . .
+ 3 S . . . . . . . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . .
+ 0 . . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+try # 1 (4 left)
+Too far East and too far North. The Snark Lives!
+
+
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 5 . . . . . . . . . .
+ 4 . . . * . . . . . .
+ 3 S . . . . . . . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . .
+ 0 . . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+try # 2 (3 left)
+Too far East and too far North. The Snark Lives!
+
+
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 5 . . . . . . . . . .
+ 4 . . . . . . . . . .
+ 3 S . * . . . . . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . .
+ 0 . . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+try # 3 (2 left)
+Too far East and y is correct. The Snark Lives!
+
+
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 5 . . . . . . . . . .
+ 4 . . . . . . . . . .
+ 3 S * . . . . . . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . .
+ 0 . . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+try # 4 (1 left)
+Too far East and y is correct. The Snark Lives!
+
+
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 5 . . . . . . . . . .
+ 4 . . . . . . . . . .
+ 3 X . . . . . . . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . .
+ 0 . . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+try # 5 (0 left)
+A Hit. The Snark is Dead!
+
+
+
+Game History:
+Try			x	y		Hint
+1			5	5		Too far East and too far North. The Snark Lives!
+2			3	4		Too far East and too far North. The Snark Lives!
+3			2	3		Too far East and y is correct. The Snark Lives!
+4			1	3		Too far East and y is correct. The Snark Lives!
+5			0	3		A Hit. The Snark is Dead!
+
+Would you like too play again? (y/n)
+y
+
+
+The snark is now hiding somewhere in dismal Swamp (pictured below). You may begin shooting!
+
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 5 . . . . . . . . . .
+ 4 . . . . . . . . . .
+ 3 . . . . . . . . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . .
+ 0 . . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+Enter the x and y coordinate of your shot on the same line separated by a space or 
+enter -1 to quit, enter -2 for auto-play
+-2
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 5 . . . . . * . . . .
+ 4 . . . . . . . . . .
+ 3 . . . . . . S . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . .
+ 0 . . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+try # 1 (4 left)
+Too far West and too far North. The Snark Lives!
+
+
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 5 . . . . . . . . . .
+ 4 . . . . . . * . . .
+ 3 . . . . . . S . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . .
+ 0 . . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+try # 2 (3 left)
+x is correct and too far North. The Snark Lives!
+
+
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 5 . . . . . . . . . .
+ 4 . . . . . . . . . .
+ 3 . . . . . . X . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . .
+ 0 . . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+try # 3 (2 left)
+A Hit. The Snark is Dead!
+
+
+
+Game History:
+Try			x	y		Hint
+1			5	5		Too far West and too far North. The Snark Lives!
+2			6	4		x is correct and too far North. The Snark Lives!
+3			6	3		A Hit. The Snark is Dead!
+
+Would you like too play again? (y/n)

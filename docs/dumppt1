@@ -1,0 +1,138 @@
+*************************************************
+***              Hunt the Snark!              ***
+*************************************************
+ The SNARK is a vicious beast that lives in the
+ dismal swamp outside the city. To hunt it, you
+ must enter 2 coordinates, each from 0-9 using
+ an x y format (x = South/North, y = West/East).
+ You will then be told how accurate your aim is.
+ You have just 5 shots to find the SNARK!
+*************************************************
+
+
+Would you like to play? (y/n)
+y
+
+
+The snark is now hiding somewhere in dismal Swamp (pictured below). You may begin shooting!
+
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 5 . . . . . . . . . .
+ 4 . . . . . . . . . .
+ 3 . . . . . . . . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . .
+ 0 . . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+Enter the x and y coordinate of your shot on the same line separated by a space or enter -1 to quit
+5 5
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 5 . . . . . * . . . .
+ 4 . . . . . . . . . .
+ 3 . . . . . . . . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . S
+ 0 . . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+try # 1 (4 left)
+Too far West and too far North. The Snark Lives!
+
+
+Enter the x and y coordinate of your shot on the same line separated by a space or enter -1 to quit
+6 1
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 5 . . . . . . . . . .
+ 4 . . . . . . . . . .
+ 3 . . . . . . . . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . * . . S
+ 0 . . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+try # 2 (3 left)
+Too far West and y is correct. The Snark Lives!
+
+
+Enter the x and y coordinate of your shot on the same line separated by a space or enter -1 to quit
+9 1
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 5 . . . . . . . . . .
+ 4 . . . . . . . . . .
+ 3 . . . . . . . . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . X
+ 0 . . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+try # 3 (2 left)
+A Hit. The Snark is Dead!
+
+
+
+Would you like to play again? (y/n)
+y
+
+
+The snark is now hiding somewhere in dismal Swamp (pictured below). You may begin shooting!
+
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 5 . . . . . . . . . .
+ 4 . . . . . . . . . .
+ 3 . . . . . . . . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . .
+ 0 . . . . . . . . . .
+   0 1 2 3 4 5 6 7 8 9
+
+Enter the x and y coordinate of your shot on the same line separated by a space or enter -1 to quit
+5 5
+
+ 9 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 5 . . . . . * . . . .
+ 4 . . . . . . . . . .
+ 3 . . . . . . . . . .
+ 2 . . . . . . . . . .
+ 1 . . . . . . . . . .
+ 0 . . . . . . . S . .
+   0 1 2 3 4 5 6 7 8 9
+
+try # 1 (4 left)
+Too far West and too far North. The Snark Lives!
+
+
+Enter the x and y coordinate of your shot on the same line separated by a space or enter -1 to quit
+-1
+
+Would you like to play again? (y/n)
+n
+
+
+Thanks for playing
+
+Hunter scored: 1
+Snark scored: 1
